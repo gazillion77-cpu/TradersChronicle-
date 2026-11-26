@@ -1,16 +1,18 @@
-# Traders Chronicle
+# Traders Chronicles
 
-A calm, responsive trading journal dashboard designed to help traders record decisions, review performance, and stay consistent.
+A responsive trading-journal workspace with a glass-inspired visual style and original Traders Chronicles branding.
 
-## Preview
+## Features
 
-Open `index.html` in a browser. The interface is a self-contained static website with no build step or external JavaScript dependencies.
+- Dashboard metrics, performance chart, journaling streak, and recent trades
+- Searchable and filterable journal, with trade entry and CSV export/import
+- Analytics overview and a monthly activity heatmap
+- Trading calendar, plans, and account overview
+- Profile preferences, light/dark theme, and responsive mobile navigation
+- Trades and plans stored locally in the current browser
 
-## Included
+## Run
 
-- Overview dashboard with performance metrics, a cumulative P&L chart, and journaling consistency
-- Searchable recent trade table and a working **Log a trade** form
-- Journal, plans, analytics, and settings views with responsive navigation
-- Mobile-friendly layout and sidebar menu
+Open `index.html` in a browser or publish the repository as a static site. No build step or external JavaScript packages are required. Google Fonts are loaded over the network; system sans-serif fallbacks are provided.
 
-The sample portfolio data is illustrative and stored in the page for the demo; trade entries are not persisted between reloads, and this prototype does not connect to a brokerage or provide financial advice.
+This is a front-end prototype. Sample metrics are illustrative, data stays in browser storage, and brokerage connections, authentication, and financial advice are not provided.
